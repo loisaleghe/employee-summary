@@ -28,8 +28,5 @@ Install the following npm modules to test and run:
 # Demo
 ![Demo1](img/demo.gif)
 
-# Team-Output
-![Demo2](img/team.png)
-
 # Questions
 Email: loisaleghe@cmail.carleton.ca
