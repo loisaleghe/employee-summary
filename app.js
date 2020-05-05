@@ -127,7 +127,7 @@ const employeeQuestions = [
       );
       employees.push(newEngineer);
       if (engineer.name) {
-        addEmployee();
+        addEmployee()
       }
     } else if (question.addEmployee == "Add intern") {
       let intern = await inquirer.prompt(internQuestions);
@@ -139,7 +139,7 @@ const employeeQuestions = [
       );
       employees.push(newIntern);
       if (intern.name) {
-        addEmployee();
+        addEmployee()
       }
     } else {
       fs.writeFileSync(outputPath, render(employees));
@@ -155,6 +155,6 @@ const employeeQuestions = [
       manager.officeNumber
     );
     employees.push(newManager);
-    addEmployee();
+    addEmployee()
   })();
 
